@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="06411d18-44be-4f15-baed-d7cab9047fad" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ea4DQZVy9PIrESwWE9JHrz6gEE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="MUSE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MUSE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lineage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lineage/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="MUSE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="MUSE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="MUSE" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="06411d18-44be-4f15-baed-d7cab9047fad" name="Default Changelist" comment="" />
+      <created>1594546249912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594546249912</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="427" y="482" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594630075323">
+      <screen x="65" y="24" width="2495" height="1416" />
+    </state>
+    <state x="427" y="482" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/65.24.2495.1416@65.24.2495.1416" timestamp="1594630075323" />
+    <state x="2999" y="491" key="FileChooserDialogImpl" timestamp="1594546770815">
+      <screen x="65" y="24" width="4415" height="1416" />
+    </state>
+    <state x="1723" y="491" key="FileChooserDialogImpl/65.24.2495.1416@65.24.2495.1416" timestamp="1594546701524" />
+    <state x="2999" y="491" key="FileChooserDialogImpl/65.24.4415.1416@65.24.4415.1416" timestamp="1594546770815" />
+    <state width="1225" height="386" key="GridCell.Tab.0.bottom" timestamp="1594578330650">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1225" height="386" key="GridCell.Tab.0.bottom/65.24.1855.1056/1920.0.2560.1440@1920.0.2560.1440" timestamp="1594578330650" />
+    <state width="1225" height="386" key="GridCell.Tab.0.center" timestamp="1594578330650">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1225" height="386" key="GridCell.Tab.0.center/65.24.1855.1056/1920.0.2560.1440@1920.0.2560.1440" timestamp="1594578330650" />
+    <state width="1225" height="386" key="GridCell.Tab.0.left" timestamp="1594578330649">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1225" height="386" key="GridCell.Tab.0.left/65.24.1855.1056/1920.0.2560.1440@1920.0.2560.1440" timestamp="1594578330649" />
+    <state width="1225" height="386" key="GridCell.Tab.0.right" timestamp="1594578330650">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1225" height="386" key="GridCell.Tab.0.right/65.24.1855.1056/1920.0.2560.1440@1920.0.2560.1440" timestamp="1594578330650" />
+    <state x="652" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1596633939631">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="652" y="367" key="com.intellij.ide.util.TipDialog/65.24.1855.1056/1920.0.2560.1440@65.24.1855.1056" timestamp="1594546804823" />
+    <state x="652" y="367" key="com.intellij.ide.util.TipDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1596633939631" />
+    <state x="855" y="484" key="com.intellij.ide.util.TipDialog/65.24.2495.1416@65.24.2495.1416" timestamp="1596020410956" />
+  </component>
+</project>

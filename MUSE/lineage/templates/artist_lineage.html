@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+
+<div class="container">
+    <h2 style="background-color:powderblue">{{artist}}</h2>
+    <h2></h2>
+</div>
+
+ <div class="container" >
+     <h4> Influencers ({{ number_influencers }}):</h4>
+    {% for influencer in influencers %}
+     <a href={{influencer.0}}>
+         <button type="button"  class="btn btn-warning" style="line-height: 1.2;">{{influencer.1}}</button>
+     </a>
+    {% endfor %}
+ </div>
+
+
+ <div class="container">
+     <h4> Followers ({{ number_followers }}):</h4>
+    {% for follower in followers %}
+      <a href={{follower.0}}>
+         <button type="button"  class="btn btn-secondary" style="line-height: 1.2;">{{follower.1}}</button>
+     </a>
+    {% endfor %}
+ </div>
+
+{% endblock %}

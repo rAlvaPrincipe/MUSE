@@ -1,0 +1,85 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #e3f2fd;">
+    <div class="container">
+        <a><p>
+            <span style="font-size:150%; font-family: 'Droid Serif',Georgia,serif;">MUSE</span>
+            <span style="font-size:medium; font-family: 'Droid Serif',Georgia,serif;">Music Understanding Search Engine</span>
+        </p></a>
+
+        <div style="width:35%; height: 80px">
+            <div class="input-group mb-3">
+                <input id="search_input" oninput="dynamic_button_href()" type="search" class="form-control" placeholder="Search for an artist" aria-label="Search">
+                    <a href="#" id="search_href">
+                        <button id="button_search" class="btn btn-outline-dark" type="button" id="button-addon2" onclick="filter()">
+                            Search
+                        </button>
+                    </a>
+
+            </div>
+
+            <label for="inflooenz" style="word-wrap:break-word">
+                <input id="inflooenz" type="checkbox" value="test"/>Inflooenz
+            </label>
+            <label for="patterns" style="word-wrap:break-word">
+                <input id="patterns" type="checkbox" value="test"/>Patterns
+            </label>
+            <label for="classificator" style="word-wrap:break-word">
+                <input id="classificator" type="checkbox" value="test"/>Classificator
+            </label>
+
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    {% block page_content %}{% endblock %}
+</div>
+
+
+
+
+
+
+<script language="JavaScript">
+    function dynamic_button_href() {
+        var myURL = "/lineage?q=" + document.getElementById('search_input').value;
+        document.getElementById('search_href').href = myURL;
+    }
+</script>
+
+<script>
+var input = document.getElementById("search_input");
+input.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("button_search").click();
+    }
+});
+</script>
+<script>
+    function filter(){
+      var inflooenz = document.getElementById("inflooenz");
+      var patterns = document.getElementById("patterns");
+      var classificator = document.getElementById("classificator");
+
+      var myURL = "/lineage?q=" + document.getElementById('search_input').value
+
+      if (inflooenz.checked == true){
+            myURL +=  "&inflooenz=true";
+      }
+      if (patterns.checked == true) {
+            myURL +=  "&patterns=true";
+      }
+      if (classificator.checked == true) {
+            myURL +=  "&classificator=true";
+      }
+        document.getElementById('search_href').href = myURL;
+    }
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
